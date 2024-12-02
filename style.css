@@ -1,0 +1,297 @@
+
+       
+.main-content {
+     margin-top: 30px;
+}
+
+ footer {
+     background-color: #f1f2f6; /* Optional: Set a background color for visibility */
+     text-align: center; /* Center the text */
+     padding: 10px; /* Add some padding */
+}
+ h1 {
+     color: #ffffff;
+     font-family: 'Lora', sans-serif;
+     font-size: 4rem; /* Increase the font size */
+     text-shadow: 2px 2px 15px #1e90ff; /* Add text shadow */
+     font-weight: bolder;
+     text-align: center;
+ }
+ h2{
+     color: #ffffff;
+     font-family: 'Lora', sans-serif;
+     font-size: 3rem; /* Increase the font size */
+     text-shadow: 2px 2px 15px #1e90ff; /* Add text shadow */
+     font-weight: bolder;
+     text-align: center;
+ }
+ /* nav start */
+ .navbar-brand {
+     font-family: 'Lora', sans-serif; /* Apply the new font */
+     font-weight: 700; /* Bold */
+     color: #70a1ff;
+     text-shadow: 2px 2px 4px ;
+ }
+ .navbar-nav .nav-link {
+     font-family: 'Lora', sans-serif; /* Apply the new font */
+     font-weight: 400; /* Regular */
+ }
+ .navbar-custom {
+     background-color: #f1f2f6; /* Change this color to your desired navbar color */
+ }
+ .navbar-custom .nav-link {
+     color: #70a1ff; /* Change link color to white */
+ }
+ .navbar-custom .nav-link:hover {
+     color: #1e90ff; /* Change link hover color */
+ }
+ .btn-custom {
+     background-color: #70a1ff; /* Change this color to your desired button color */
+     color: white; /* Change text color */
+ }
+ .btn-custom:hover {
+     background-color: #1e90ff; /* Change this color for hover effect */
+ }
+ /* nav end */
+ .hero {
+     background-size: cover;
+     background-position: center;
+     color: white;
+     height: 600px; /* Adjust height as needed */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+ }
+ .hero img {
+     max-width: 100%;
+     height: auto;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 1; /* Ensure the image is behind the text */
+ }
+ .hero-content {
+     position: relative; /* Positioning for text overlay */
+     z-index: 2; /* Ensure the text is above the image */
+ }
+ .hero-content h1 {
+     font-size: 4rem; /* Increase the font size */
+     text-shadow: 6px 6px 8px #1e90ff; /* Add text shadow */
+     font-weight: bolder;
+ }
+ .hero-content p{
+     font-size: 1.5rem; /* Adjust font size */
+     text-shadow: 2px 2px 4px #1e90ff; /* Add text shadow */
+     font-weight: 400;
+ }
+ .btn-custom {
+     background-color:#70a1ff ; /* Make the background transparent */
+     color: white; /* Set the text color */
+     border: 2px solid #70a1ff; /* Optional: Add a border */
+     transition: background-color 0.3s, color 0.3s; /* Smooth transition for hoer effects v*/
+ }
+
+ .btn-custom:hover {
+     background-color: rgba(255, 255, 255, 0.2); /* Optional: Add a semi-transparent background on hover */
+     color: #1e90ff; /* Change text color on hover */
+ }
+ /* about us start */
+ .about-us{
+     background-color:#70a2ffd3;
+     padding: 30px;
+     border-radius: 10px;
+     box-shadow: 0px 4px 10px #1e8fff;
+ }
+ .about {
+    background-image: url('https://img.freepik.com/free-photo/background-with-natural-ingredients-preparation-mask-skin-care-preparation-mask-from-powder_169016-12980.jpg?ga=GA1.1.1901360081.1682906962&semt=ais_hybridhttps://img.freepik.com/free-photo/leaves-bamboo-cloths-with-copy-space_23-2147628622.jpg?ga=GA1.1.1901360081.1682906962&semt=ais_hybrid');
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px; /* Add padding for spacing */
+    color: white; /* Text color for contrast */
+}
+
+.about-title {
+    font-size: 2.5em; /* Larger font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.about-text {
+    font-size: 1.7em; /* Adjust font size for better readability */
+    line-height: 1.5; /* Increase line height for easier reading */
+    max-width: 800px; /* Limit the width of the text */
+    margin: 0 auto; /* Center the text block */
+    padding: 20px; /* Padding inside the text block */
+    border-radius: 10px; /* Rounded corners for aesthetics */
+}
+
+ 
+ .mv-card {
+    width: 85%; /* Adjusted width for better balance */
+    max-width: 600px; /* Maintain a similar maximum width */
+    height: 320px; /* Slightly increased height for spaciousness */
+    margin: 20px auto; /* Added vertical margin for breathing room */
+    padding: 15px; /* Added padding for more spacing inside the card */
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; /* Ensure content is centered horizontally */
+    text-align: center;
+    border-radius: 15px; /* Added rounded corners for a softer look */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 15px rgba(30, 143, 255, 0.6); /* Subtle shadow */
+    background: linear-gradient(135deg, #70a2ffe2, #4682b4); /* Gradient for depth */
+}
+
+.mv-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25); /* Deeper shadow on hover */
+    background: linear-gradient(135deg, #70a1ff, #1e90ff); /* Enhance hover effect */
+}
+
+.mv-card .card-title {
+    position: relative; /* Simplified positioning */
+    margin-bottom: 20px; /* Added spacing below the title */
+    font-size: 1.8rem; /* Balanced font size */
+    color: #ffffff;
+    text-shadow: 2px 2px 6px #1e90ff; /* Improved text shadow */
+    font-weight: bold; /* Emphasize title */
+}
+
+.mv-card .card-text {
+    font-size: 1.5rem; /* Reduced text size for better readability */
+    line-height: 1.6; /* Increased line height for readability */
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #57606f; /* Subtle shadow for text */
+    padding: 0 10px; /* Added horizontal padding for text alignment */
+
+
+ }
+/* services section */
+ .card-body {
+ margin-top: 60px; /* Add space for the title */
+ padding: 10px; /* Adjust padding */
+ display: flex; /* Use flexbox for alignment */
+flex-direction: column; /* Stack content vertically */
+justify-content: space-between; /* Space between elements */
+height: 100%; /* Full height of the card */
+ }
+
+ .card-title .badge {
+ font-size: 0.75rem;
+ margin-left: 10px;
+ }
+ .card-text {
+ margin-bottom: 10px;
+ font-size: 0.95rem;
+ line-height: 1.5;
+ }
+ .services {
+     margin-top: 50px; /* Add some space above the services section */
+ }
+
+ .card {
+     border: 2px solid #70a1ff; /* Set the border color and width */
+     border-radius: 10px; /* Optional: add rounded corners */
+     box-shadow: 0px 4px 15px #1e8fff;
+     height: 600px; /* Fixed height for all cards */
+ }
+ .card-img-top {
+     width: 100%; /* Make the image responsive */
+     height: 200px; /* Set a fixed height */
+     object-fit: cover; /* Ensure the image covers the area without distortion */
+ }
+/* end about us */
+ /* start testimonial */
+ .card-title {
+     font-family: 'Lora', sans-serif; /* Ensure consistent font */
+
+ }
+ 
+ .testimonials {
+     background-color: #ced6e0; /* Light background color */
+     padding: 30px; /* Add padding for spacing */
+
+      margin-top: 30px; /* Space above the section */
+
+ }
+ .carousel-card {
+    width:90%;
+     max-width: 300px; /* Set a fixed width */
+     height: 300px; /* Set a fixed height */
+     padding-top: 40px;
+     margin: auto; /* Center the card horizontally */
+     display: flex; /* Use flexbox for alignment */
+     border-radius: 20px;
+     flex-direction: column; /* Stack children vertically */
+     justify-content: center; /* Center content vertically */
+     align-items: center; /* Center content horizontally */
+     text-align: center; /* Center text */
+     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+     background-color: #ffffff; /* Default background color */
+}
+
+ .carousel-card img {
+     width: 100px; /* Set a fixed width for the image */
+     height: 100px; /* Set a fixed height for the image */
+     margin: auto; /* Center the image */
+     border-radius: 50%; /* Make the image circular */
+}
+
+ .carousel-card:hover {
+     transform: scale(1.05); /* Scale up the card on hover */
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+
+/* end testimonial */
+/* gallery section */
+
+ .card-gallery {
+     border: none; /* Remove card border */
+     justify-content: center;
+
+}
+
+ .gallery-img {
+     height: 200px; /* Set a fixed height for images */
+     border: 5px solid #70a1ff;
+     object-fit: cover; /* Ensure images cover the area without distortion */
+
+}
+/* end gallery section */
+/* contact */
+.container h2 {
+margin-bottom: 30px; /* Space below the section title */
+
+}
+
+.container h4 {
+margin-top: 20px; /* Space above the subsection titles */
+}
+
+.form-label {
+font-weight: bold; /* Make form labels bold */
+}
+
+/* contact */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .nav-link {
+        font-size: 0.9rem;
+    }
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-title {
+        font-size: 2em; /* Slightly smaller title on mobile */
+    }
+
+    .about-text {
+        font-size: 1em; /* Smaller text size on mobile */
+        padding: 15px; /* Adjust padding for mobile */
+    }
+}

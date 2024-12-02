@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Heaven's Gate</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+      
+    <!-- Hero Section -->
+<!-- Hero Section -->
+<div class="hero" style="position: relative; height: 600px;">
+    <video autoplay muted loop style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
+        <source src="https://videos.pexels.com/video-files/6772574/6772574-uhd_2560_1440_30fps.mp4" type="video/mp4"> <!-- Change this to the path of your video -->
+        Your browser does not support the video tag.
+    </video>
+    <div class="hero-content" >
+        <h1 class="hero-welcome">Welcome to Heavens Gate</h1>
+        <p class="lead">Enter Heaven's Gate, and Let the Weight of the World Drift Away.</p>
+        <a href="#about" class="btn btn-custom btn-lg">Explore Now</a>
+    </div>
+</div>
+
+
+    <br><br>
+
+<!-- About Us Section -->
+<div id="about" class="mt-5 about">
+    <h1 class="about-title text-center">About Us</h1>
+    <div class="about-us">
+        <span class="about-text text-center">Welcome to Heaven's Gate, a haven where serenity unfolds. Here, we believe in the transformative power of touch, guiding our clients through a journey of relaxation and rejuvenation. Nestled in the heart of tranquility, our sanctuary invites you to escape the clamor of the world and embrace the gentle embrace of bliss. With every high-quality massage, we weave a tapestry of comfort, allowing you to forget your worries and drift into a realm of peace. Join us, and let us illuminate your path to well-being, one soothing moment at a time.</span>
+    </div>
+
+    <!-- Mission and Vision Cards -->
+    <div class="row misvis-card mt-5">
+        <h1 class="text-center mb-4">Mission and Vision</h1>
+
+        <div class="col-md-6 col-12 mb-3"> <!-- Added col-12 for mobile responsiveness -->
+            <div class="card mv-card">
+                <h5 class="card-title text-center">Our Mission</h5>
+                <div class="card-body">
+                    <p class="card-text">Our mission is to allow our clients to savor the warmth of heaven, providing high-quality massages that soothe the body, calm the mind, and gently lift the weight of their woes.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-12 mb-3"> <!-- Added col-12 for mobile responsiveness -->
+            <div class="card mv-card">
+                <h5 class="card-title text-center">Our Vision</h5> 
+                <div class="card-body">
+                    <p class="card-text">Our vision is to be a sanctuary in this bustling world, where clients can leave behind their worries and pain.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- End of About Us Section -->
+    <br><br><br>
+<!-- Main content goes here -->
+<!-- start services section -->
+<div class="container main-content">
+    <h1>Our Services</h1>
+    <div id="Services" class="services">
+        <div class="row">
+            <!-- Swedish Massage Card -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://images.unsplash.com/photo-1639162906614-0603b0ae95fd?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Swedish Massage">
+                    <div class="card-body">
+                        <h5 class="card-title">Swedish Massage <span class="badge bg-success">Relaxing</span></h5>
+                        <p class="card-text">Experience the timeless art of relaxation with our Swedish Massage. Designed to ease tension and rejuvenate the body, this gentle yet effective massage uses long, flowing strokes to improve circulation and melt away stress.</p>
+                        <!-- New Features -->
+                        <ul class="list-unstyled">
+                            <li>🌿 Relieves stress</li>
+                            <li>💆 Improves circulation</li>
+                            <li>⏳ 30 or 60 minutes available</li>
+                        </ul>
+                        <p class="text-muted">⭐ 4.9 (50 reviews)</p>
+                        <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#swedishModal">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hot Stone Massage Card -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3dlZGlzaCUyMG1hc3NhZ2V8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="Hot Stone Massage">
+                    <div class="card-body">
+                        <h5 class="card-title">Hot Stone Massage <span class="badge bg-warning">Popular</span></h5>
+                        <p class="card-text">Let the warmth of smooth, heated stones transport you to a realm of tranquility. Combines therapeutic heat with gentle pressure to release deep-seated tension and promote a profound sense of calm.</p>
+                        <!-- New Features -->
+                        <ul class="list-unstyled">
+                            <li>🔥 Soothes sore muscles</li>
+                            <li>🧘 Eases tension</li>
+                            <li>⏳ 30 or 60 minutes available</li>
+                        </ul>
+                        <p class="text-muted">⭐ 5.0 (30 reviews)</p>
+                        <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#hotStoneModal">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Aromatherapy Massage Card -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHN3ZWRpc2glMjBtYXNzYWdlfGVufDB8fDB8fHww" class="card-img-top" alt="Aromatherapy Massage">
+                    <div class="card-body">
+                        <h5 class="card-title">Aromatherapy Massage <span class="badge bg-info">Calming</span></h5>
+                        <p class="card-text">Indulge your senses with a harmonious blend of soothing touch and essential oils. Each oil is carefully selected to enhance relaxation, uplift the spirit, and restore balance.</p>
+                        <!-- New Features -->
+                        <ul class="list-unstyled">
+                            <li>🌸 Enhances relaxation</li>
+                            <li>🌿 Uplifts the spirit</li>
+                            <li>⏳ 30 or 60 minutes available</li>
+                        </ul>
+                        <p class="text-muted">⭐ 4.8 (45 reviews)</p>
+                        <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#aromaModal">Learn More</button>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://img.freepik.com/free-photo/woman-receiving-massage-clavicle_1286-29.jpg?ga=GA1.1.1901360081.1682906962&semt=ais_hybrid" class="card-img-top" alt="Thai Massage">
+                        <div class="card-body">
+                            <h5 class="card-title">Thai Massage <span class="badge bg-primary">Energizing</span></h5>
+                            <p class="card-text">Revitalize your body and mind with our Thai Massage. This traditional therapy combines acupressure and yoga-like stretches to improve flexibility, balance energy, and leave you feeling invigorated.</p>
+                            <!-- New Features -->
+                            <ul class="list-unstyled">
+                                <li>🌿 Boosts energy flow</li>
+                                <li>🤸‍♂️ Enhances flexibility</li>
+                                <li>⏳ 30 or 60 minutes available</li>
+                            </ul>
+                            <p class="text-muted">⭐ 4.8 (45 reviews)</p>
+                            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#thaiModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Shiatsu Massage -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://img.freepik.com/free-photo/man-getting-back-massage-side-view_23-2149406801.jpg?ga=GA1.1.1901360081.1682906962&semt=ais_hybrid" class="card-img-top" alt="Shiatsu Massage">
+                        <div class="card-body">
+                            <h5 class="card-title">Shiatsu Massage <span class="badge bg-info">Balancing</span></h5>
+                            <p class="card-text">Experience the calming touch of our Shiatsu Massage. Rooted in Japanese tradition, this therapy applies rhythmic finger pressure to restore energy balance and encourage deep relaxation.</p>
+                            <!-- New Features -->
+                            <ul class="list-unstyled">
+                                <li>🤲 Focused pressure points</li>
+                                <li>❤️ Promotes energy balance</li>
+                                <li>⏳ 30 or 60 minutes available</li>
+                            </ul>
+                            <p class="text-muted">⭐ 4.7 (40 reviews)</p>
+                            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#shiatsuModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Deep Tissue Massage -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="https://img.freepik.com/free-photo/physiotherapist-massaging-patient-office_23-2149143816.jpg?ga=GA1.1.1901360081.1682906962&semt=ais_hybrid" class="card-img-top" alt="Deep Tissue Massage">
+                        <div class="card-body">
+                            <h5 class="card-title">Deep Tissue Massage <span class="badge bg-warning">Therapeutic</span></h5>
+                            <p class="card-text">Relieve chronic tension and pain with our Deep Tissue Massage. Using firm pressure and targeted strokes, this massage focuses on deeper muscle layers to improve mobility and alleviate discomfort.</p>
+                            <!-- New Features -->
+                            <ul class="list-unstyled">
+                                <li>🎯 Targeted muscle therapy</li>
+                                <li>💪 Relieves deep tension</li>
+                                <li>⏳ 30 or 60 minutes available</li>
+                            </ul>
+                            <p class="text-muted">⭐ 4.9 (55 reviews)</p>
+                            <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#deepTissueModal">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- end services section -->
+<!-- Modals -->
+
+<!-- Swedish Massage Modal -->
+<div class="modal fade" id="swedishModal" tabindex="-1" aria-labelledby="swedishModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="swedishModalLabel">Swedish Massage</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Relax. Revive. Rejuvenate.</strong> Our Swedish Massage combines gentle strokes and expert techniques to ease tension and promote total relaxation.</p>
+                
+                <hr>
+                
+                <h6>Key Benefits:</h6>
+                <ul>
+                    <li>Relieves muscle tension</li>
+                    <li>Boosts circulation</li>
+                    <li>Promotes relaxation</li>
+                </ul>
+                
+                <h6>What to Expect:</h6>
+                <ul>
+                    <li>Smooth, flowing strokes</li>
+                    <li>Gentle pressure tailored to your comfort</li>
+                </ul>
+                
+                <h6>Tips for a Better Experience:</h6>
+                <ul>
+                    <li>Stay hydrated before and after</li>
+                    <li>Wear comfortable clothing</li>
+                </ul>
+                
+                <hr>
+                
+                <p><strong>Duration:</strong> 30-50 minutes</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Hot Stone Massage Modal -->
+<div class="modal fade" id="hotStoneModal" tabindex="-1" aria-labelledby="hotStoneModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="hotStoneModalLabel">Hot Stone Massage</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Warmth that Heals.</strong> Experience the calming power of heated stones, designed to melt away tension, relieve soreness, and restore balance to both body and mind.</p>
+
+                <hr>
+                
+                <h6>Key Benefits:</h6>
+                <ul>
+                    <li>Relieves muscle tension and stiffness</li>
+                    <li>Promotes deep relaxation</li>
+                    <li>Boosts circulation and detoxification</li>
+                </ul>
+
+                <h6>What to Expect:</h6>
+                <ul>
+                    <li>Warm stones placed on key areas for maximum comfort</li>
+                    <li>Gentle pressure combined with soothing strokes</li>
+                </ul>
+
+                <h6>Tips for a Better Experience:</h6>
+                <ul>
+                    <li>Stay hydrated before and after your session</li>
+                    <li>Wear loose clothing for maximum comfort</li>
+                </ul>
+
+                <hr>
+
+                <p><strong>Duration:</strong> 60 minutes</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Aromatherapy Massage Modal -->
+<div class="modal fade" id="aromaModal" tabindex="-1" aria-labelledby="aromatherapyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="aromatherapyModalLabel">Aromatherapy Massage</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Relax & Revitalize.</strong> Enhance your well-being with our Aromatherapy Massage, combining therapeutic touch and essential oils to reduce stress, refresh the mind, and uplift the spirit.</p>
+
+                <hr>
+                
+                <h6>Key Benefits:</h6>
+                <ul>
+                    <li>Reduces stress and anxiety</li>
+                    <li>Enhances mood and clarity</li>
+                    <li>Boosts overall well-being</li>
+                </ul>
+
+                <h6>Popular Essential Oils:</h6>
+                <ul>
+                    <li><strong>Lavender:</strong> Calming, ideal for relaxation</li>
+                    <li><strong>Eucalyptus:</strong> Refreshing, clears the mind</li>
+                    <li><strong>Peppermint:</strong> Energizing, soothes aches</li>
+                </ul>
+
+                <h6>Before Your Session:</h6>
+                <ul>
+                    <li>Arrive relaxed and well-hydrated</li>
+                    <li>Avoid heavy meals before your session</li>
+                </ul>
+
+                <h6>Aftercare Tips:</h6>
+                <ul>
+                    <li>Stay hydrated with plenty of water</li>
+                    <li>Allow yourself time to rest and enjoy the lasting relaxation</li>
+                </ul>
+
+                <hr>
+
+                <p><strong>Duration:</strong> 40-50 minutes</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Thai Massage Modal -->
+<div class="modal fade" id="thaiModal" tabindex="-1" aria-labelledby="thaiMassageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="thaiMassageModalLabel">Thai Massage</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Stretch & Strengthen.</strong> Our Thai Massage blends yoga-like stretches and deep pressure techniques, offering a holistic experience that enhances flexibility, relieves tension, and energizes the body.</p>
+
+                <hr>
+                
+                <h6>Key Benefits:</h6>
+                <ul>
+                    <li>Improves flexibility and joint mobility</li>
+                    <li>Relieves muscle tension and stiffness</li>
+                    <li>Boosts energy levels and circulation</li>
+                </ul>
+
+                <h6>What to Expect:</h6>
+                <ul>
+                    <li>Gentle stretching and body pressure applied with the hands, elbows, knees, and feet</li>
+                    <li>No oil is used, so expect full-body stretches and massages while fully clothed in comfortable attire</li>
+                </ul>
+
+                <h6>Before Your Session:</h6>
+                <ul>
+                    <li>Wear loose, comfortable clothing</li>
+                    <li>Arrive relaxed and well-hydrated</li>
+                </ul>
+
+                <h6>Aftercare Tips:</h6>
+                <ul>
+                    <li>Stay hydrated to help your muscles recover</li>
+                    <li>Avoid strenuous activities immediately after your session</li>
+                </ul>
+
+                <hr>
+
+                <p><strong>Duration:</strong> 60-90 minutes</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Shiatsu Massage Modal -->
+<div class="modal fade" id="shiatsuModal" tabindex="-1" aria-labelledby="shiatsuMassageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="shiatsuMassageModalLabel">Shiatsu Massage</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Pressure & Balance.</strong> Shiatsu Massage uses deep, rhythmic pressure to stimulate energy flow and release blockages, balancing the body and mind for improved overall health and well-being.</p>
+
+                <hr>
+                
+                <h6>Key Benefits:</h6>
+                <ul>
+                    <li>Improves circulation and energy flow</li>
+                    <li>Relieves stress and muscle tension</li>
+                    <li>Enhances mental clarity and emotional balance</li>
+                </ul>
+
+                <h6>What to Expect:</h6>
+                <ul>
+                    <li>Pressure applied using fingers, palms, and thumbs along specific energy pathways</li>
+                    <li>Gentle stretches may be incorporated for added relief</li>
+                    <li>Sessions are done fully clothed, no oils used</li>
+                </ul>
+
+                <h6>Before Your Session:</h6>
+                <ul>
+                    <li>Wear loose, comfortable clothing</li>
+                    <li>Arrive well-hydrated and relaxed</li>
+                </ul>
+
+                <h6>Aftercare Tips:</h6>
+                <ul>
+                    <li>Drink plenty of water to aid the detoxification process</li>
+                    <li>Allow time for rest and avoid intense physical activity post-treatment</li>
+                </ul>
+
+                <hr>
+
+                <p><strong>Duration:</strong> 60-90 minutes</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Deep Tissue Massage Modal -->
+<div class="modal fade" id="deepTissueModal" tabindex="-1" aria-labelledby="deepTissueMassageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deepTissueMassageModalLabel">Deep Tissue Massage</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Intense & Therapeutic.</strong> Our Deep Tissue Massage focuses on relieving chronic muscle tension and targeting deep layers of muscle tissue to ease pain, stress, and improve mobility.</p>
+
+                <hr>
+                
+                <h6>Key Benefits:</h6>
+                <ul>
+                    <li>Relieves chronic muscle pain and tension</li>
+                    <li>Improves flexibility and mobility</li>
+                    <li>Helps with post-injury recovery</li>
+                </ul>
+
+                <h6>What to Expect:</h6>
+                <ul>
+                    <li>Firm pressure applied to targeted muscle groups</li>
+                    <li>Deep strokes to break down adhesions and knots in muscles</li>
+                    <li>Sessions may focus on specific areas of tension</li>
+                </ul>
+
+                <h6>Before Your Session:</h6>
+                <ul>
+                    <li>Inform your therapist about any areas of discomfort or injury</li>
+                    <li>Drink water before and after the session to aid muscle recovery</li>
+                </ul>
+
+                <h6>Aftercare Tips:</h6>
+                <ul>
+                    <li>Drink plenty of water to flush out toxins</li>
+                    <li>Rest and avoid strenuous activities after your session</li>
+                </ul>
+
+                <hr>
+
+                <p><strong>Duration:</strong> 60-90 minutes</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Book Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Testimonials Section -->
+<div class="mt-5 testimonials">
+    <h2 class="text-center">Testimonials</h2>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- First testimonial -->
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-12"> <!-- Adjust this to control the size of the image -->
+                        <div class="carousel-card">
+                            <img src="images/yun_chee.jpg" class="card-img-top rounded-circle img-fluid" alt="John Doe">
+                            <div class="card-body">
+                                <p class="card-text">"This place is amazing! The staff is so friendly and the services are top!"</p>
+                                <h5 class="card-title">- Yun Che</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Second testimonial -->
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-12">
+                        <div class="carousel-card">
+                            <img src="images/yang_kai.jpg" class="card-img-top rounded-circle img-fluid" alt="Jane Smith">
+                            <div class="card-body">
+                                <p class="card-text">"I had the best massage of my life here. Highly recommend!"</p>
+                                <h5 class="card-title">- Yang Kai</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Third testimonial -->
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-12">
+                        <div class="carousel-card">
+                            <img src="images/gu_changge.jpg" class="card-img-top rounded-circle img-fluid" alt="Emily Johnson">
+                            <div class="card-body">
+                                <p class="card-text">"A wonderful experience! I felt so relaxed and rejuvenated."</p>
+                                <h5 class="card-title">- Gu Changge</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- More testimonials as needed -->
+        </div>
+
+        <!-- Carousel controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+     <!-- end testimonials -->
+ 
+<!-- Gallery Section -->
+    <!-- Gallery Section -->
+    <div id="Gallery" class="container card-gallery mt-5 mb-5">
+        <h2 class="text-center mb-4">Gallery</h2>
+        <div class="row">
+            <!-- Gallery Item 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="gallery-img">
+                    <img 
+                        src="images/1.jpg" 
+                        class="card-img-top img-thumbnail" 
+                        alt="Aromatherapy" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#galleryModal" 
+                        data-bs-title="Aromatherapy"
+                        data-bs-description="This is a showcase for our aromatherapy massage."
+                    >
+                </div>
+            </div>
+            <!-- Gallery Item 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="gallery-img">
+                    <img 
+                        src="images/e.jpg" 
+                        class="card-img-top img-thumbnail" 
+                        alt="Thai Massage" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#galleryModal" 
+                        data-bs-title="Thai Massage"
+                        data-bs-description="This is a showcase for our Thai massage."
+                    >
+                </div>
+            </div>
+            <!-- Gallery Item 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="gallery-img">
+                    <img 
+                        src="images/q.jpg" 
+                        class="card-img-top img-thumbnail" 
+                        alt="Hot Stone Massage" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#galleryModal" 
+                        data-bs-title="Hot Stone Massage"
+                        data-bs-description="This is a showcase for our Hot Stone massage"
+                    >
+                </div>
+            </div>
+            <!-- Gallery Item 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="gallery-img">
+                    <img 
+                        src="images/r.jpg" 
+                        class="card-img-top img-thumbnail" 
+                        alt="Drop of Heaven" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#galleryModal" 
+                        data-bs-title="Drop of Heaven"
+                        data-bs-description="Essence of Serenity in every Drop."
+                    >
+                </div>
+            </div>
+            <!-- Gallery Item 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="gallery-img">
+                    <img 
+                        src="images/t.jpg" 
+                        class="card-img-top img-thumbnail" 
+                        alt="Swedish Massage" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#galleryModal" 
+                        data-bs-title="Swedish Massage"
+                        data-bs-description="This is a showcase for our Swedish Massage."
+                    >
+                </div>
+            </div>
+            <!-- Gallery Item 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="gallery-img">
+                    <img 
+                        src="images/w.jpg" 
+                        class="card-img-top img-thumbnail" 
+                        alt="Deep Tissue Massage" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#galleryModal" 
+                        data-bs-title="Deep Tissue Massage"
+                        data-bs-description="This is a showcase for our Deep Tissue Massage."
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="galleryModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImage" src="" alt="" class="img-fluid mb-3">
+                    <p id="modalDescription" class="text-muted"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<br><br>
+<!-- End of Gallery Section -->
+ <!-- Contact and Location Section -->
+<div id="Contact" class="container mt-5 mb-5">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Get in Touch</h4>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-custom">Send Message</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <h4>Our Location</h4>
+            <p>123 Heaven's Gate St.<br> Serenity City, SC 12345</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> contact@heavensgate.com</p>
+            <div class="mt-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509488!2d144.9537353153168!3d-37.81720997975112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f3e9b61%3A0x5045675218ce6f0!2sHeaven's%20Gate!5e0!3m2!1sen!2sau!4v1616161616161!5m2!1sen!2sau" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Contact and Location Section -->
+   <!-- Footer -->
+<footer class="footer">
+    <div class="text-center p-3">
+        © 2023 Heavens Gate Massage 
+        <a href="" class="text-dark">Home</a> 
+    </div>
+</footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+    <script>
+        const galleryModal = document.getElementById('galleryModal');
+        galleryModal.addEventListener('show.bs.modal', function (event) {
+            const img = event.relatedTarget; // Image that triggered the modal
+            const title = img.getAttribute('data-bs-title');
+            const description = img.getAttribute('data-bs-description');
+            const src = img.getAttribute('src');
+
+            // Populate the modal with the image, title, and description
+            galleryModal.querySelector('.modal-title').textContent = title;
+            galleryModal.querySelector('#modalImage').src = src;
+            galleryModal.querySelector('#modalDescription').textContent = description;
+        });
+    </script>
+</body>
+</html>
